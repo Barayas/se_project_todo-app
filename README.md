@@ -1,10 +1,10 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+This is a basic Todo app to keep track of all the need-to-do tasks throughout your day.
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+This app has the capability to add whatever task you need to complete with or without an added deadline.
 
 ## Technology
 
@@ -14,5 +14,4 @@ Give a description of the technologies and techniques used. Pictures, GIFs, or s
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
-  https://github.com/Barayas/se_project_todo-app
+https://github.com/Barayas/se_project_todo-app
