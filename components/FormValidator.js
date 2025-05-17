@@ -80,9 +80,6 @@ class FormValidator {
 
   resetValidation() {
     this._formEl.reset();
-    this._inputList = Array.from(
-      this._formEl.querySelectorAll(this._inputSelector)
-    );
     this._inputList.forEach((inputElement) => {
       this._hideInputError(this._formEl, inputElement);
     });

@@ -18,14 +18,12 @@ class PopupWithForm extends Popup {
 
   setEventListeners() {
     super.setEventListeners();
-    this._popupElement
-      .querySelector(".popup__form")
-      .addEventListener("submit", (evt) => {
-        evt.preventDefault();
-        const inputValues = this._getInputValues();
+    this._popupForm.addEventListener("submit", (evt) => {
+      evt.preventDefault();
+      const inputValues = this._getInputValues();
 
-        this._handleFormSubmit(inputValues);
-      });
+      this._handleFormSubmit(inputValues);
+    });
   }
 }
 export default PopupWithForm;
